@@ -15,6 +15,11 @@ namespace ECommerce.Models
         public DbSet<Category> Category
         { get; set; }
 
+        public ProductDetail GetDetails(int id)
+        {
+
+            
+        }
        
     }
 }
